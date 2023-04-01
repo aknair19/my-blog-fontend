@@ -1,0 +1,8 @@
+.article-list-container {
+    /* border: 1px solid green; */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5em;
+}

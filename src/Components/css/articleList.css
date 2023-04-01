@@ -1,0 +1,15 @@
+.article-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.font-style {
+    color: black;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}

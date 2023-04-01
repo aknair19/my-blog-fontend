@@ -1,0 +1,11 @@
+.comments {
+    margin: 0.8em;
+    padding-top: 1em;
+    /* border-bottom: 3px solid grey; */
+    border-top: 3px solid grey;
+}
+
+.comment-header {
+
+    margin-top: 0.8em;
+}

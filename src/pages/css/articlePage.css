@@ -1,0 +1,27 @@
+.article-page-container {
+    padding: 1em;
+    width: 80%;
+
+}
+
+.btn-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin: 1em 0;
+    gap: 0.8em;
+
+    width: 45%;
+}
+
+.btn-upvote {
+    border-radius: 10px;
+    padding: 0.5em;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.btn-upvote:hover {
+    background-color: grey;
+}

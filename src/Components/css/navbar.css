@@ -1,0 +1,54 @@
+.nav-bar {
+    border-bottom: 4px solid black;
+    display: flex;
+    align-items: baseline;
+    padding: 0.4em;
+
+
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    flex: 1;
+}
+
+ul li {
+    list-style: none;
+    margin: 0.4em;
+
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+/* .active {
+    color: #A9A9A9;
+} */
+
+.nav-item {
+    padding: 0.8em;
+    margin: 0.5em;
+    color: black;
+
+}
+
+.nav-item:hover {
+    color: white;
+    background-color: black;
+}
+
+.nav-btn {
+    padding: 6px;
+    border-radius: 12px;
+    border: none;
+    font-weight: bolder;
+}
+
+.nav-btn:hover {
+    background-color: #6666;
+    color: black;
+}

@@ -1,0 +1,46 @@
+.form {
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+    margin: 5em;
+    padding: 0.5em;
+    /* max-width: 32%; */
+    width: 400px;
+    gap: 2.2em;
+
+}
+
+.login-head-div {
+    width: 100%;
+}
+
+.login-head {
+    background-color: black;
+
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.input {
+    height: 3vh;
+}
+
+.submit-btn {
+    font-weight: bolder;
+    padding: 1vh;
+}
+
+.error {
+    background-color: pink;
+    font-size: smaller;
+    width: max-content;
+
+}
+
+.link:hover {
+    color: blueviolet;
+}
