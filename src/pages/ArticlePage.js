@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import articles from "./article-content";
