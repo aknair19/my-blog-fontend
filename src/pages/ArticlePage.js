@@ -24,7 +24,7 @@ const ArticlePage = () => {
       const headers = token ? { authtoken: token } : {};
 
       const response = await axios.get(
-        `${BACKENDAPI}/api/articles/${articleId}`,
+        `${process.env.REACT_APP_API_KEY}/api/articles/${articleId}`,
         {
           headers,
         }
